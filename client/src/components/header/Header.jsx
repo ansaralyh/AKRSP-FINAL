@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Header = () => {
   return (
     <div className='container'>
-      <h1>hello from header section</h1>
+      <h1>hello from afsheen</h1>
     </div>
   )
 }
