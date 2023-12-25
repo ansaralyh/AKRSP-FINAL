@@ -1,13 +1,11 @@
+import Login from "./components/Pages/login/Login";
+import "./App.css"
+import RootRoute from "./routes";
 
-import './App.css';
-import Welcome from './pages/welcomeScreen/Welcome';
 
 function App() {
   return (
-   <>
-   <Welcome/>
-
-   </>
+     <RootRoute/>
   );
 }
 

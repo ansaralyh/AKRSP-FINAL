@@ -1,0 +1,198 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+
+
+.btn{
+  width: 100%;
+  background-color: #666;
+  border: none;
+  color: #FFF;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+.loginpage {
+    /* position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 830px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    font-family: var(--font-urbanist);
+    text-align: center; */
+    width: 50%;
+    text-align: center;
+    padding: 6em 2em;
+ 
+  }
+
+.login {
+/* 
+height:Hug(80px); 
+ padding: 10px;
+gap: 10px;  */
+text-align: center;
+/* padding: 10px; */
+color: #000;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.icon{
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 0px 4px #666;
+  padding: 4px 60px;
+
+ 
+
+
+}
+.icon facebook-icon{
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: #FFF;
+
+}
+
+.icon img{
+  width: 25px;
+  height: 25px;
+}
+
+.socialIcon{
+  display: flex;
+  justify-content: space-around;
+  gap:86px;
+  width:100%;
+  padding-top: 20px;
+}
+
+.rightDiv{
+  width: 50%;
+  
+}
+.mailicon {
+width: 18px;
+height: 18px;
+top: 6px;
+right: 5px;
+border: 2px;
+position: absolute;
+
+}
+
+.mainCont{
+  position: relative;
+  width: 100%;
+
+ 
+}
+
+.image{
+
+  height: 637px;
+}
+
+.image img {
+  width:100%;
+  height: 100%
+}
+.text {
+  color: rgba(0, 0, 0, 0.80);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.inputField{
+width: 100%;
+border-radius: 5px;
+border: 0.3px solid #666;
+background: #FFF;
+padding: 8px;
+}
+
+:focus{outline: 0.3px solid #666;}
+
+
+.Loginform{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 1em 4em;
+}
+
+
+.rememberMe{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+
+
+  
+}
+
+.rememberCont{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1em 0em;
+}
+
+
+.subCont{
+  width: 100%;
+  /* border: 1px solid red; */
+  
+}
+.logintext {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+
+/* REesponsiveness */
+
+@media only screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .loginpage{
+    width: 100% !important;
+  }
+
+  .rightDiv{
+    width: 100% !important;
+  }
+
+  .Loginform{
+    padding: 1em !important;
+}
+}
